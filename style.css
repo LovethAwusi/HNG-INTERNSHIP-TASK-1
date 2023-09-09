@@ -26,7 +26,7 @@
 }
 
 .inner-container{
-    background-color: var(--darker);
+    background-color: var(--dark);
     border-radius: 0.625rem;
     width: 90vmin;
     display: flex;
