@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const currentDayOfTheWeekEl = document.getElementById('currentDayOfTheWeek');
     const currentUTCTimeEl = document.getElementById('currentUTCTime');
+    const currentDayOfTheWeekEl = document.getElementById('currentDayOfTheWeek');
 
-    
+
     function updateDateandTime() {
         const date = new Date();
         const utcTime = date.getTime();
@@ -23,9 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
         currentDayOfTheWeekEl.textContent = currentDayOfTheWeek;
     }
 
-    setInterval(updateDateandTime, 1000)
+    setInterval(updateDateandTime, 1000);
     updateDateandTime();
 });
-
-
-
